@@ -146,6 +146,8 @@ PlayerSettings:
   bundleVersion: 0.1
   preloadedAssets:
   - {fileID: 11400000, guid: 63642d8d544e2754f8399b92e8faa7d7, type: 2}
+  - {fileID: -944628639613478452, guid: d00009cd704d3fd409969b409413f13c, type: 3}
+  - {fileID: 11400000, guid: 281f7dc83cee5324ea8d4754b1afadcc, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -167,7 +169,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.Perez.Practica1_Edilberto
+    Android: com.Perez.Practica3_Edilberto
     Standalone: com.DefaultCompany.3D-Project
   buildNumber:
     Standalone: 0
