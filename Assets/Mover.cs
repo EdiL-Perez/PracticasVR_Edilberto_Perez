@@ -32,8 +32,8 @@ public class Mover : MonoBehaviour
         inputaction.Player.Run.performed += ctx => isRunning = true;
         inputaction.Player.Run.canceled += ctx => isRunning = false;
         inputaction.Player.Jump.performed += ctx => jump();
-        inputaction.Player.Rotate.performed += ctx => rotateInput = ctx.ReadValue<float>();
-        inputaction.Player.Rotate.canceled += ctx => rotateInput = 0;
+        inputaction.Player.Rotate.performed += ctx => rotateInput = ctx.ReadValue<Vector2>().x;
+        inputaction.Player.Rotate.canceled += ctx => rotateInput = 0f;
         
 
 
